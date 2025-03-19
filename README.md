@@ -16,7 +16,7 @@ These scenarios are addressed:
 
 - Concurrency 
     
-    Handling simulatneous conversations between users an agents.
+    Handling simulatneous conversations between users and agents.
 
 - Agent routing
 
