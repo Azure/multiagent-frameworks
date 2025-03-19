@@ -1,0 +1,55 @@
+{
+    "id": "XYZ7890123456",
+    "account_email": "user@example.com",
+    "status": "active",
+    "account_type": "business",
+    "country": "US",
+    "primary_currency": "EUR",
+    "balances": [
+      {
+        "currency_code": "EUR",
+        "amount": "300.00"
+      },
+      {
+        "currency_code": "USD",
+        "amount": "100.00"
+      }
+    ],
+    "user_details": {
+      "full_name": "Alice Smith",
+      "contact_number": "+1234567891",
+      "billing_address": {
+        "address_line_1": "456 Business Park",
+        "address_line_2": "Suite 100",
+        "city": "Metropolis",
+        "state": "NY",
+        "postal_code": "10001",
+        "country_code": "US"
+      }
+    },
+    "business_details": {
+      "business_name": "Alice's Art Supplies",
+      "tax_id": "98-7654321"
+    },
+    "account_created_on": "2021-07-23T15:34:00Z",
+    "last_activity_on": "2024-10-01T09:10:50Z",
+    "permissions": [
+      "SEND_MONEY",
+      "RECEIVE_MONEY",
+      "VIEW_BALANCE",
+      "REFUND"
+    ],
+    "links": [
+      {
+        "href": "https://api.transify.com/v1/accounts/XYZ7890123456",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.transify.com/v1/accounts/XYZ7890123456/transactions",
+        "rel": "transactions",
+        "method": "GET"
+      }
+    ]
+  }
+  

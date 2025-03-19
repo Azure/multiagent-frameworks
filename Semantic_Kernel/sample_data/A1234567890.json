@@ -1,0 +1,37 @@
+{
+  "account_id": "A1234567890",
+  "email": "example@domain.com",
+  "account_status": "verified",
+  "account_type": "personal",
+  "currency": "USD",
+  "balance": {
+    "currency_code": "USD",
+    "value": "150.00"
+  },
+  "owner": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address": {
+      "line1": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "postal_code": "12345",
+      "country_code": "US"
+    },
+    "phone": "+1234567890"
+  },
+  "created_at": "2023-01-15T08:55:30Z",
+  "updated_at": "2024-10-09T10:20:15Z",
+  "links": [
+    {
+      "href": "https://api.transify.com/v1/accounts/A1234567890",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://api.transify.com/v1/accounts/A1234567890/balance",
+      "rel": "balance",
+      "method": "GET"
+    }
+  ]
+}

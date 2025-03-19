@@ -1,0 +1,86 @@
+{
+    "transaction_id": "5KL7643HJY0987654",
+    "status": "pending",
+    "intent": "sale",
+    "amount": {
+      "total": "120.00",
+      "currency": "USD",
+      "details": {
+        "subtotal": "100.00",
+        "tax": "10.00",
+        "shipping": "10.00"
+      }
+    },
+    "transaction_fee": {
+      "value": "3.60",
+      "currency": "USD"
+    },
+    "payer": {
+      "payer_id": "XYZ7890123456",
+      "email": "shopper@example.com",
+      "payer_info": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "billing_address": {
+          "line1": "789 Pine St",
+          "city": "Othertown",
+          "state": "NY",
+          "postal_code": "10011",
+          "country_code": "US"
+        }
+      },
+      "payment_method": "transify"
+    },
+    "payee": {
+      "merchant_id": "SELLER123456789",
+      "email": "merchant@example.com",
+      "merchant_info": {
+        "business_name": "Doe's Bookstore"
+      }
+    },
+    "description": "Purchase of books and accessories",
+    "create_time": "2024-10-05T14:35:00Z",
+    "update_time": "2024-10-05T15:00:00Z",
+    "transaction_details": {
+      "item_list": [
+        {
+          "item_name": "Fiction Novel",
+          "quantity": 2,
+          "price": "40.00",
+          "currency": "USD"
+        },
+        {
+          "item_name": "Leather Bookmark",
+          "quantity": 1,
+          "price": "20.00",
+          "currency": "USD"
+        }
+      ],
+      "shipping_address": {
+        "recipient_name": "Jane Doe",
+        "line1": "789 Pine St",
+        "city": "Othertown",
+        "state": "NY",
+        "postal_code": "10011",
+        "country_code": "US"
+      },
+      "shipping_method": "Standard Shipping",
+      "shipping_cost": {
+        "value": "10.00",
+        "currency": "USD"
+      }
+    },
+    "links": [
+      {
+        "href": "https://api.transify.com/v1/payments/transaction/5KL7643HJY0987654",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.transify.com/v1/payments/transaction/5KL7643HJY0987654/refund",
+        "rel": "refund",
+        "method": "POST"
+      }
+    ]
+  }
+  
