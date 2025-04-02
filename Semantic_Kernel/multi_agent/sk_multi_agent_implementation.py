@@ -39,11 +39,11 @@ class MultiAgent:
             settings.function_choice_behavior = FunctionChoiceBehavior.Auto()
 
             sk_agent = ChatCompletionAgent(
-                service_id=service_id,
+                id=service_id,
                 kernel=kernel,
                 name=agent_name,
-                instructions=instructions,
-                execution_settings=settings
+                instructions=instructions
+                
             )
             return sk_agent
         except Exception as e:

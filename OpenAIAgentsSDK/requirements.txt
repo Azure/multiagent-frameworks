@@ -1,0 +1,2 @@
+openai-agents
+azure-identity
