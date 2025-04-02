@@ -8,6 +8,7 @@ This repository contains a collection of multi-agent frameworks that can be used
 - [Autogen v0.4](https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/)
 - [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 - [Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/overview?view=azure-python-preview)
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
 
 This repo is designed to easily understand different frameworks and help developers with nuances and compare the different approaches. 
 
